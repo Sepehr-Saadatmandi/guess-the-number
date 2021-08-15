@@ -3,11 +3,12 @@
 * {
   color: white;
   font-family: "Press Start 2P", sans-serif;
-  background-color: rgb(206, 33, 33);
+
   box-sizing: border-box;
 }
 body {
   margin: 1% 0;
+  background-color: rgb(41, 41, 41);
 }
 header {
   border-bottom: white 5px solid;
@@ -88,4 +89,8 @@ main {
 
 .score {
   font-size: 120%;
+}
+
+.hidden {
+  display: none;
 }
