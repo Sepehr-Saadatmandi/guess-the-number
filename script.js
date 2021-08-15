@@ -14,7 +14,7 @@ console.log(`Answer is ${gameNumber}!`)
 
 $$('.check-btn').addEventListener('click', function () {
     let inputNumber = $$(".input-number").value;
-    if (inputNumber > 20 || inputNumber < 1) {
+    if (inputNumber > 20 || inputNumber < 1 || inputNumber % 1 != 0) {
         $$(".report").textContent = "Invalid Number";
     }
     else if (inputNumber > gameNumber) {
