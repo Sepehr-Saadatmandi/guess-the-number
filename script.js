@@ -48,6 +48,7 @@ $$(".btn-again").addEventListener("click", function () {
     $$(".score-number").textContent = 20;
     $$("body").style.backgroundColor = "rgb(41, 41, 41)"
     $$(".check-btn").classList.remove("hidden");
+    $$(".input-number").value = '';
 
 
 
