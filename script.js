@@ -49,6 +49,7 @@ $$(".btn-again").addEventListener("click", function () {
     $$("body").style.backgroundColor = "rgb(41, 41, 41)"
     $$(".check-btn").classList.remove("hidden");
     $$(".input-number").value = '';
+    $$(".answer").textContent = "?";
 
 
 
